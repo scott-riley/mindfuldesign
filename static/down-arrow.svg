@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.674 11.544">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #80e0a7;
+      }
+    </style>
+  </defs>
+  <path id="down-arrow" class="cls-1" d="M954.568,860.142l10.483,10.483,10.483-10.483" transform="translate(-954.214 -859.788)"/>
+</svg>
