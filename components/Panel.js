@@ -14,11 +14,11 @@ export default (props) => (
         background: white;
         border-radius: 5px;
         display: grid;
-        grid-template-columns: 4fr 5fr;
+        grid-template-columns: 5fr 5fr;
         grid-gap: 60px;
         align-items: center;
         position: relative;
-        padding-right: 40px;
+        box-shadow: 0 0 54px rgba(0,0,0,.2);
       }
       img {
         width: 100%;
@@ -39,6 +39,7 @@ export default (props) => (
         margin-top: 0;
         padding-top: 0;
         font-size: 2.1rem;
+        margin-bottom: 1rem;
       }
       .chapterNo {
         position: absolute;

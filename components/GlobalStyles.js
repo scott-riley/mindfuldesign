@@ -34,18 +34,19 @@ export default () => (
       stroke-dashoffset: 1000;
       animation: dash 10s linear forwards;
       opacity: 0;
+      animation-delay: 2s;
     }
     [id^=leftTree] {
       transform: translateY(-40px);
-      opacity: .5;
+      opacity: 0;
+      animation: hi .7s ease-out forwards;
       animation-delay: 1s;
-      animation: hi 1s ease-out forwards;
     }
     [id^=rightTree___] {
       transform: translateY(40px);
-      opacity: .5;
+      opacity: 0;
+      animation: hi .7s ease-out forwards;
       animation-delay: 1s;
-      animation: hi 1s ease-out forwards;
     }
   `}</style>
 )

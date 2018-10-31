@@ -7,15 +7,31 @@ const linkStyle = {
 const Header = () => (
   <div className="mainHeader">
     <nav>
-      <a className="logo">Mindful Design</a>
+      <Link href="/">
+        <a className="logo">Mindful Design</a>
+      </Link>
       <ul className="links">
         <li>
           <Link href="/">
-            The book
+            <a>
+              The book
+            </a>
           </Link>
         </li>
-        <li>The talk</li>
-        <li>The workshop</li>
+        <li>
+          <Link href="/talk">
+            <a>
+              The talk
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/workshop">
+            <a>
+              The workshops
+            </a>
+          </Link>
+        </li>
       </ul>
     </nav>
     <style jsx>{`
@@ -53,6 +69,12 @@ const Header = () => (
       .logo {
         font-family: gastromond, serif;
         font-size: 1.2rem;
+        text-decoration: none;
+        color: black;
+      }
+      .logo:hover {
+        color: white;
+        text-shadow: 1px 2px 0 rgba(0,0,0,.22);
       }
     `}</style>
   </div>
