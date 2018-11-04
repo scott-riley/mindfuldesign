@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 15.999 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #80e0a7;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Mask" class="cls-1" d="M7.111,22a1,1,0,0,1-.994-1.107L6.885,13.8H1a1,1,0,0,1-.831-1.556L8.057.444a1,1,0,0,1,1.825.663L9.114,8.2H15a1,1,0,0,1,.831,1.556l-7.889,11.8A1,1,0,0,1,7.111,22" transform="translate(4 1)"/>
+    </clipPath>
+  </defs>
+  <g id="interaction" transform="translate(-356 -5614.5)">
+    <path id="Mask-2" data-name="Mask" class="cls-1" d="M7.111,22a1,1,0,0,1-.994-1.107L6.885,13.8H1a1,1,0,0,1-.831-1.556L8.057.444a1,1,0,0,1,1.825.663L9.114,8.2H15a1,1,0,0,1,.831,1.556l-7.889,11.8A1,1,0,0,1,7.111,22" transform="translate(356 5614.5)"/>
+    <g id="interaction-2" data-name="interaction" class="cls-2" transform="translate(352 5613.5)">
+      <g id="_Color" data-name="🎨 Color">
+        <rect id="_Color_background" data-name="🎨 Color background" class="cls-1" width="24" height="24"/>
+        <rect id="Base" class="cls-1" width="24" height="24"/>
+      </g>
+    </g>
+  </g>
+</svg>

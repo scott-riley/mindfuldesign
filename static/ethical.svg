@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 19.998 14.002">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #80e0a7;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Mask" class="cls-1" d="M10.025,14C4.163,14,.756,8.585.132,7.5a1.009,1.009,0,0,1,0-1C.987,5.015,4.205.146,9.729,0c.1,0,.2,0,.294,0,5.813,0,9.221,5.418,9.846,6.5a1.014,1.014,0,0,1,0,1c-.855,1.489-4.073,6.358-9.6,6.5ZM10,3.5A3.5,3.5,0,1,0,13.5,7,3.5,3.5,0,0,0,10,3.5Zm0,5A1.5,1.5,0,1,1,11.5,7,1.5,1.5,0,0,1,10,8.5Z" transform="translate(2 4.998)"/>
+    </clipPath>
+  </defs>
+  <g id="ethical" transform="translate(-353.001 -5628.498)">
+    <path id="Mask-2" data-name="Mask" class="cls-1" d="M10.025,14C4.163,14,.756,8.585.132,7.5a1.009,1.009,0,0,1,0-1C.987,5.015,4.205.146,9.729,0c.1,0,.2,0,.294,0,5.813,0,9.221,5.418,9.846,6.5a1.014,1.014,0,0,1,0,1c-.855,1.489-4.073,6.358-9.6,6.5ZM10,3.5A3.5,3.5,0,1,0,13.5,7,3.5,3.5,0,0,0,10,3.5Zm0,5A1.5,1.5,0,1,1,11.5,7,1.5,1.5,0,0,1,10,8.5Z" transform="translate(353 5628.499)"/>
+    <g id="Group_124" data-name="Group 124" class="cls-2" transform="translate(351 5623.5)">
+      <g id="_Color" data-name="🎨 Color">
+        <rect id="_Color_background" data-name="🎨 Color background" class="cls-1" width="24" height="24"/>
+        <rect id="Base" class="cls-1" width="24" height="24"/>
+      </g>
+    </g>
+  </g>
+</svg>

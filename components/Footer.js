@@ -4,40 +4,20 @@ const linkStyle = {
   marginRight: 15
 }
 
-const Header = () => (
-  <div className="mainHeader">
+const Footer = () => (
+  <div className="mainFooter">
     <nav>
-      <Link href="/">
-        <a className="logo">Mindful Design</a>
-      </Link>
+      <div className="copy">
+        <p>&copy; scott riley forever and ever</p>
+      </div>
       <ul className="links">
-        <li>
-          <Link href="/">
-            <a>
-              The book
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/talk">
-            <a>
-              The talk
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/workshop">
-            <a>
-              The workshops
-            </a>
-          </Link>
-        </li>
+        <li>By <a href="https://scott.is">Scott Riley</a> <b>/</b></li>
+        <li>Book published by <a href="http://apress.com">Apress</a> <b>/</b></li>
+        <li>Get on yer <a href="https://twitter.com/scott_riley">Twitter</a></li>
       </ul>
     </nav>
     <style jsx>{`
-      .mainHeader {
-        position: fixed;
-        top: 0;
+      .mainFooter {
         width: 100vw;
         box-shadow: 0 2px 3px rgba(0,0,0,.12);
         background: linear-gradient(to right, #80E0A7, #5DDFB3);
@@ -49,24 +29,30 @@ const Header = () => (
         display: grid;
         grid-template-columns: 200px 1fr;
         align-items: center;
-        width: 90vw;
+        padding-bottom: .6rem;
+        width: 92vw;
+      }
+      p {
+        text-align: right;
+      }
+      a {
+        color: black;
+        font-weight: bold;
       }
       .links {
         display: flex;
         justify-content: flex-end;
-        list-style: none;
-        padding-left: 0;
       }
       .links li {
         margin-left: 20px;
-        font-family: skolar-sans-latin-compressed, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-size: .8rem;
+        list-style: none;
+        display: inline-block;
+        margin-left: .2rem;
       }
       .links li :global(a) {
-        color: inherit;
-        text-decoration: none;
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
       }
       .logo {
         font-family: gastromond, serif;
@@ -96,18 +82,24 @@ const Header = () => (
           background: rgba(255,255,255,.3);
           margin-bottom: 0;
           padding-bottom: .5rem;
+          margin-left: 0;
+          padding-left: 0;
+          padding-top: .6rem;
         }
         .links li {
-          display: inline-block;
-          margin-bottom: 0;
-          margin-left: 10vw;
+          display: block;
+          margin-bottom: .4rem;
+          margin-left: 0
         }
         .links li:first-child {
           margin-left: 0;
+        }
+        b {
+          display: none;
         }
       }
     `}</style>
   </div>
 )
 
-export default Header
+export default Footer

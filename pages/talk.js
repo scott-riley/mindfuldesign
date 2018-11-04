@@ -47,7 +47,7 @@ export default () => (
 			.partTwo {
 				padding-top: 0;
 				background-color: white;
-				padding-bottom: 40vh;
+				padding-bottom: 11vmax;
 				position: relative;
 				z-index: 0;
         text-align: center;
@@ -63,7 +63,7 @@ export default () => (
 				margin: auto;
         padding-top: 2rem;
         margin-top: -10vmax;
-        height: 100vh;
+        min-height: 67.6vh;
 			}
 			.twoWrapper h2 {
 				font-size: 2.8rem;

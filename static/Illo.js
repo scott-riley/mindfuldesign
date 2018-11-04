@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Illo(props) {
   return (
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 882.2 693.1" {...props}>
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 882.2 693.1" width="882.2" height="693.1" {...props}>
       <defs>
         <linearGradient id="linear-gradient" x1="514.95" y1="113.66" x2="704.9" y2="635.54" gradientTransform="matrix(1, 0, 0, -1, 0, 842)" gradientUnits="userSpaceOnUse">
           <stop offset={0} stopColor="#00aace" />

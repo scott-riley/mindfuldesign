@@ -6,7 +6,7 @@ export default (props) => (
     <div className="panelContent">
       <span className="subTitle">Chapter {props.c}</span>
       <h2 className="panelTitle">{props.title}</h2>
-      <p>{props.children}</p>
+      {props.children}
     </div>
     <div className="chapterNo">0{props.c}</div>
     <style jsx>{`
@@ -40,6 +40,7 @@ export default (props) => (
         padding-top: 0;
         font-size: 2.1rem;
         margin-bottom: 1rem;
+        color: #2B3753;
       }
       .chapterNo {
         position: absolute;
@@ -48,6 +49,41 @@ export default (props) => (
         color: #F655A8;
         font-family: gastromond, serif;
         font-size: 3rem;
+      }
+      .panelContent :global(p) {
+        padding-right: 20px;
+      }
+      @media(max-width: 720px) {
+        .panel {
+          display: block;
+        }
+        .panelContent {
+          padding-left: 5vw;
+          padding-right: 5vw;
+          padding-bottom: 4rem;
+          padding-top: 2rem;
+        }
+        h2 {
+          font-size: 1.4rem;
+        }
+        .panelContent p {
+          font-size: 1rem;
+          max-width: 100%;
+          padding-right: 0;
+        }
+        img {
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 0;
+          border-top-right-radius: 5px;
+        }
+      }
+      @media(max-width: 920px) {
+        h2 {
+          font-size: 1.7rem;
+        }
+        .panelContent :global(p) {
+          font-size: .7rem;
+        }
       }
     `}</style>
   </div>
