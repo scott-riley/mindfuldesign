@@ -21,8 +21,8 @@ export default (props) => (
         margin-right: .4em;
       }
       .icon img {
-        height: 22px;
-        max-width: 22px;
+        height: 24px;
+        max-width: 24px;
         vertical-align: baseline;
       }
       .feature :global(p) {

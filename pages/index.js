@@ -21,7 +21,7 @@ export default () => (
 					<div className="heroContent">
 						<h1>Design for<br />Real Humans</h1>
 						<p>
-							A book, a talk and a series of workshops designed to infuse your design process with the understanding and appreciation the human mind deserves. If you want to start integrating into lifestyles instead of interrupting them, Mindful Design is for you.
+							A book designed to infuse your design process with the understanding and appreciation the human mind deserves, Mindful Design presents a responsible deep dive into the areas of cognitive psychology and neuroscience that can most improve design. If you want to start making products that integrate into lifestyles instead of interrupting them, Mindful Design is for you.
 						</p>
 						<a className="button" target="_blank" href="https://geni.us/mindful">
 							Pre-order on Amazon
@@ -73,7 +73,7 @@ export default () => (
 					</p>
 				</Panel>
 				<Panel
-					title="Reward & Motiviation"
+					title="Reward & Motivation"
 					c="5"
 					image="/static/ch5.jpg"
 				>
@@ -98,7 +98,6 @@ export default () => (
 				width: 100vw;
 				background-repeat: no-repeat;
 				position: relative;
-				padding-top: 3rem;
 			}
 			.heroWrapper {
 				transform: scaleX(.7);

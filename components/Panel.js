@@ -82,7 +82,7 @@ export default (props) => (
           font-size: 1.7rem;
         }
         .panelContent :global(p) {
-          font-size: .7rem;
+          font-size: .9rem;
         }
       }
     `}</style>

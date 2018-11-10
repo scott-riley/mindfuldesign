@@ -41,7 +41,8 @@ export default () => (
           title="Diagrams & Documentation"
         >
           <p>
-            We'll take a look at how we can ensure that the testing we conduct—and the changes we make on the back of it—are representative and accommodating of the diverse people and attitudes that occupy our problem space.
+            
+            We'll examine how documenting our systems and ideas through things like state diagrams, mental models and empathy maps can ensure that our important decisions are communicated effectively.
           </p>
         </Feature>
         <Feature
@@ -107,7 +108,17 @@ export default () => (
       .featureGrid {
         display: grid;
         grid-gap: 40px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+      }
+      @media(min-width: 720px) {
+        .featureGrid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media(min-width: 920px) {
+        .featureGrid {
+          grid-template-columns: 1fr 1fr 1fr;
+        }
       }
 			.partTwo:before {
 				background-image: url('/static/curve.svg');
